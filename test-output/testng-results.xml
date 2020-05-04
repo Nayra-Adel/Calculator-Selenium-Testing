@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="25" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="366" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="366" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+      <class name="tests.AdditionTestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AdditionTestCases@2b552920]" name="setup" is-config="true" duration-ms="35" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAddIntegerBoundaryValid()[pri:0, instance:tests.AdditionTestCases@2b552920]" name="testAddIntegerBoundaryValid" duration-ms="26" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddIntegerBoundaryValid -->
+        <test-method status="PASS" signature="testAddNegativeOutOfBoundaryInvalid()[pri:0, instance:tests.AdditionTestCases@2b552920]" name="testAddNegativeOutOfBoundaryInvalid" duration-ms="7" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNegativeOutOfBoundaryInvalid -->
+        <test-method status="PASS" signature="testAddNegativeValidNumbers()[pri:0, instance:tests.AdditionTestCases@2b552920]" name="testAddNegativeValidNumbers" duration-ms="4" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNegativeValidNumbers -->
+        <test-method status="PASS" signature="testAddPositiveOutOfBoundaryInvalid()[pri:0, instance:tests.AdditionTestCases@2b552920]" name="testAddPositiveOutOfBoundaryInvalid" duration-ms="5" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPositiveOutOfBoundaryInvalid -->
+        <test-method status="PASS" signature="testAddPositiveValidNumbers()[pri:0, instance:tests.AdditionTestCases@2b552920]" name="testAddPositiveValidNumbers" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPositiveValidNumbers -->
+        <test-method status="PASS" signature="testAddZeroBoundaryValid()[pri:0, instance:tests.AdditionTestCases@2b552920]" name="testAddZeroBoundaryValid" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddZeroBoundaryValid -->
+      </class> <!-- tests.AdditionTestCases -->
+      <class name="tests.DivisionTestCases">
+        <test-method status="PASS" signature="testDivByZeroInValid()[pri:0, instance:tests.DivisionTestCases@578486a3]" name="testDivByZeroInValid" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivByZeroInValid -->
+        <test-method status="PASS" signature="testDivIntegerBoundaryValid()[pri:0, instance:tests.DivisionTestCases@578486a3]" name="testDivIntegerBoundaryValid" duration-ms="2" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivIntegerBoundaryValid -->
+        <test-method status="PASS" signature="testDivNegativeValidNumbers()[pri:0, instance:tests.DivisionTestCases@578486a3]" name="testDivNegativeValidNumbers" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNegativeValidNumbers -->
+        <test-method status="PASS" signature="testDivPositiveValidNumbers()[pri:0, instance:tests.DivisionTestCases@578486a3]" name="testDivPositiveValidNumbers" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivPositiveValidNumbers -->
+        <test-method status="PASS" signature="testDivZeroBoundaryValid()[pri:0, instance:tests.DivisionTestCases@578486a3]" name="testDivZeroBoundaryValid" duration-ms="4" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivZeroBoundaryValid -->
+        <test-method status="PASS" signature="testDivZerobyAnyNumValid()[pri:0, instance:tests.DivisionTestCases@578486a3]" name="testDivZerobyAnyNumValid" duration-ms="2" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivZerobyAnyNumValid -->
+      </class> <!-- tests.DivisionTestCases -->
+      <class name="tests.SubtractionTestCases">
+        <test-method status="PASS" signature="testSubMaxIntegerOutOfBoundaryInvalid()[pri:0, instance:tests.SubtractionTestCases@2758fe70]" name="testSubMaxIntegerOutOfBoundaryInvalid" duration-ms="4" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubMaxIntegerOutOfBoundaryInvalid -->
+        <test-method status="PASS" signature="testSubMinIntegerOutOfBoundaryInvalid()[pri:0, instance:tests.SubtractionTestCases@2758fe70]" name="testSubMinIntegerOutOfBoundaryInvalid" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubMinIntegerOutOfBoundaryInvalid -->
+        <test-method status="PASS" signature="testSubNegativeValidNumbers()[pri:0, instance:tests.SubtractionTestCases@2758fe70]" name="testSubNegativeValidNumbers" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubNegativeValidNumbers -->
+        <test-method status="PASS" signature="testSubPositiveValidNumbers()[pri:0, instance:tests.SubtractionTestCases@2758fe70]" name="testSubPositiveValidNumbers" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubPositiveValidNumbers -->
+        <test-method status="PASS" signature="testSubZeroBoundaryValid()[pri:0, instance:tests.SubtractionTestCases@2758fe70]" name="testSubZeroBoundaryValid" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubZeroBoundaryValid -->
+      </class> <!-- tests.SubtractionTestCases -->
+      <class name="tests.MultiplicationTestCases">
+        <test-method status="PASS" signature="testMulMaxIntegerOutOfBoundaryInvalid()[pri:0, instance:tests.MultiplicationTestCases@1f36e637]" name="testMulMaxIntegerOutOfBoundaryInvalid" duration-ms="5" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulMaxIntegerOutOfBoundaryInvalid -->
+        <test-method status="PASS" signature="testMulMinIntegerOutOfBoundaryInvalid()[pri:0, instance:tests.MultiplicationTestCases@1f36e637]" name="testMulMinIntegerOutOfBoundaryInvalid" duration-ms="6" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulMinIntegerOutOfBoundaryInvalid -->
+        <test-method status="PASS" signature="testMulNegativeValidNumbers()[pri:0, instance:tests.MultiplicationTestCases@1f36e637]" name="testMulNegativeValidNumbers" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulNegativeValidNumbers -->
+        <test-method status="PASS" signature="testMulPositiveValidNumbers()[pri:0, instance:tests.MultiplicationTestCases@1f36e637]" name="testMulPositiveValidNumbers" duration-ms="2" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulPositiveValidNumbers -->
+        <test-method status="PASS" signature="testMulZeroBoundaryValid()[pri:0, instance:tests.MultiplicationTestCases@1f36e637]" name="testMulZeroBoundaryValid" duration-ms="3" started-at="2020-05-04T20:39:30 EET" finished-at="2020-05-04T20:39:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulZeroBoundaryValid -->
+      </class> <!-- tests.MultiplicationTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

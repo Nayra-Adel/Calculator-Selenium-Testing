@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.DivisionTestCases">
+        <methods>
+          <include name="testDivByZeroInValid"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.DivisionTestCases -->
+      <class name="tests.AdditionTestCases">
+        <methods>
+          <include name="testAddNegativeOutOfBoundaryInvalid"/>
+          <include name="setup"/>
+          <include name="testAddPositiveOutOfBoundaryInvalid"/>
+        </methods>
+      </class> <!-- tests.AdditionTestCases -->
+      <class name="tests.SubtractionTestCases">
+        <methods>
+          <include name="testSubMinIntegerOutOfBoundaryInvalid"/>
+          <include name="setup"/>
+          <include name="testSubMaxIntegerOutOfBoundaryInvalid"/>
+        </methods>
+      </class> <!-- tests.SubtractionTestCases -->
+      <class name="tests.MultiplicationTestCases">
+        <methods>
+          <include name="testMulMaxIntegerOutOfBoundaryInvalid"/>
+          <include name="testMulMinIntegerOutOfBoundaryInvalid"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.MultiplicationTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
